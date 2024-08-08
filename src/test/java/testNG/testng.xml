@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testNG.annotationdemo"/>
+      <class name="testNG.Asserations"/>
+      <class name="testNG.orangerhrm_login"/>
+      <class name="testNG.paralleltestingdemo"/>
+      <class name="testNG.groupingdemo"/>
+      <class name="testNG.dependenciesmethod"/>
+      <class name="testNG.parameterization"/>
+      <class name="testNG.Hardsoftassertion"/>
+      <class name="testNG.First_test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
